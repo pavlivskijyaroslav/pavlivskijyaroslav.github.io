@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f4f1;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+
+        .barber__logo {
+            padding: 25px 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            .block__menu {
+                padding: 25px 20px;
+                align-items: center;
+                
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #242424;
+                }
+
+                #active {
+                    padding: 29px 0;
+                    border-bottom: 4px #fff solid;
+                }
+            }
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        .sign {
+            padding: 25px 20px;
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+
+            img {
+                margin-right: 10px;
+            }
+
+            &:hover {
+                background-color: #242424;
+            }
+        }
+    }
+
+}
+
+.block__shop {
+    padding: 60px 0 40px 20px;
+
+    .page {
+        align-items: center;
+        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    span {
+        color: #aba9a7;
+    }
+
+    .shop {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+
+        .block__filter {
+            max-width: 220px;
+            float: left;
+
+            .filter,
+            .filter2 {
+                margin-bottom: 60px;
+                form {
+                    margin-top: 30px;
+
+                    .item__check {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 15px;
+
+                        input {
+                            margin-right: 25px;
+                            outline: none;
+                            height: 20px;
+                            width: 20px;
+                        }
+
+                        label {
+                            line-height: 18px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-size: 14px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        .block__products {
+            max-width: 720px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .item__products {
+                min-width: 220px;
+                background-color: #fff;
+                margin: 0 10px 15px 10px;
+                box-shadow: 1px 0px 8px -2px rgba(0, 0, 0, 0.75);
+
+                .about__product {
+                    margin: 15px;
+
+                    .price__product {
+                        display: flex;
+                        padding-bottom: 15px;
+
+                        .value {
+                            width: 60%;
+                            background-color: #e5e5e5;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            p {
+                                margin: 0;
+                            }
+                        }
+
+                        .btn {
+                            width: 40%;
+                            background-color: black;
+                            padding: 15px 0;
+                            text-align: center;
+                            cursor: pointer;
+
+                            a {
+                                text-decoration: none;
+                                color: #f7f4f1;
+                            }
+                            &:hover{
+                                background-color: #242424;
+                            }
+                        }
+                    }
+                }
+            }
+            .block__btn{
+                display: flex;
+                max-height: 50px;
+                padding: 0 20px 0 20px;
+                .btn {
+                    margin-left: 10px;
+                    width: 40px;
+                    background-color: black;
+                    padding: 15px 0;
+                    text-align: center;
+                    cursor: pointer;
+    
+                    a {
+                        text-decoration: none;
+                        color: #f7f4f1;
+                        
+                    }
+                    &:hover{
+                        background-color: #242424;
+                    }
+                }
+            }
+            
+        }
+
+    }
+}
+#active__page{
+    box-shadow: 1px 0px 8px -2px rgba(0, 0, 0, 0.75);
+    background-color: #fff;
+    a{
+        color: #000;
+    }
+}
+
+
+
+footer {
+    background: url(../../img/footer.png) no-repeat center center / cover;
+    padding: 60px 40px 40px 40px;
+    color: #fff;
+
+    .container {
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .block__contact {
+            max-width: 320px;
+            color: #fff;
+        }
+
+        .block__social {
+            max-width: 170px;
+            text-align: center;
+
+            img {
+                margin: 5px;
+                cursor: pointer;
+            }
+        }
+
+        .created {
+            text-align: center;
+            max-width: 140px;
+
+            .btn {
+                width: 100%;
+                background-color: black;
+                padding: 15px 13px;
+                text-align: center;
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    color: #f7f4f1;
+                }
+
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+        }
+
+    }
+
+}
+
+

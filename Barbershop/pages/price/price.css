@@ -1,0 +1,246 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f4f1;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 42px;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+}
+
+.header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation .barber__logo {
+  padding: 25px 20px;
+}
+
+.header .navigation nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation nav .block__menu {
+  padding: 25px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.header .navigation nav .block__menu:hover {
+  background-color: #242424;
+}
+
+.header .navigation nav .block__menu #active {
+  padding: 29px 0;
+  border-bottom: 4px #fff solid;
+}
+
+.header .navigation a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.header .navigation .sign {
+  padding: 25px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .navigation .sign img {
+  margin-right: 10px;
+}
+
+.header .navigation .sign:hover {
+  background-color: #242424;
+}
+
+.container__price {
+  padding: 0 40px 0 40px;
+}
+
+.container__price .block__price {
+  padding: 60px 0 80px 0;
+}
+
+.container__price .block__price .page {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container__price .block__price span {
+  color: #aba9a7;
+}
+
+.container__price .classic {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__price .classic h1 {
+  text-align: center;
+  margin: 0 25px;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.container__price .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+}
+
+.container__price .prices h1 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.container__price .prices .left__price {
+  max-width: 300px;
+}
+
+.container__price .prices .left__price ul {
+  list-style-image: url(../../img/diamondblack.png);
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.container__price .prices .left__price ul li {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container__price .prices .right__price {
+  max-width: 450px;
+}
+
+.container__price .prices .right__price table, .container__price .prices .right__price tr {
+  border: 2px #000 solid;
+  width: 100%;
+  margin-top: 45px;
+  border-collapse: collapse;
+}
+
+.container__price .prices .right__price table p, .container__price .prices .right__price tr p {
+  padding: 0 75px;
+  text-align: center;
+}
+
+footer {
+  background: url(../../img/footer.png) no-repeat center center/cover;
+  padding: 60px 40px 40px 40px;
+  color: #fff;
+}
+
+footer .container {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .block__contact {
+  max-width: 320px;
+  color: #fff;
+}
+
+footer .container .block__social {
+  max-width: 170px;
+  text-align: center;
+}
+
+footer .container .block__social img {
+  margin: 5px;
+  cursor: pointer;
+}
+
+footer .container .created {
+  text-align: center;
+  max-width: 140px;
+}
+
+footer .container .created .btn {
+  width: 100%;
+  background-color: black;
+  padding: 15px 13px;
+  text-align: center;
+  cursor: pointer;
+}
+
+footer .container .created .btn a {
+  text-decoration: none;
+  color: #f7f4f1;
+}
+
+footer .container .created .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*# sourceMappingURL=price.css.map */

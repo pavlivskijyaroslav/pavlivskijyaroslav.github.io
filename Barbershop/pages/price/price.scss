@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f4f1;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        .barber__logo{
+            padding: 25px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            .block__menu {
+                padding: 25px 20px;
+                align-items: center;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #242424;
+                }
+
+                #active {
+                    padding: 29px 0;
+                    border-bottom: 4px #fff solid;
+                }
+            }
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        .sign {
+            padding: 25px 20px;
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            img{
+                margin-right: 10px;
+            }
+            &:hover {
+                background-color: #242424;
+            }
+        }
+    }
+
+}
+
+
+.container__price{
+    padding: 0 40px 0 40px;
+    .block__price{
+        padding: 60px 0 80px 0;
+        .page{
+            align-items: center;
+            max-width: 160px;
+            display: flex;
+            justify-content: space-between;
+        }
+        span{
+            color: #aba9a7;
+        }
+    }
+    .classic{
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        h1{
+            text-align: center;
+            margin: 0 25px;
+            font-size: 48px;
+            line-height: 48px;
+        }
+    }
+    .prices{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        h1{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .left__price{
+            max-width: 300px;
+            ul{
+                list-style-image: url(../../img/diamondblack.png);
+                padding-left: 20px;
+                margin-top: 40px;
+                li{
+                    margin-bottom: 25px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    
+                }
+            }
+        }
+        .right__price{
+            max-width: 450px;
+            table, tr{
+                border: 2px #000 solid;
+                width: 100%;
+                margin-top: 45px;
+                border-collapse: collapse;
+                p{
+                    padding: 0 75px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background: url(../../img/footer.png) no-repeat center center / cover;
+    padding: 60px 40px 40px 40px;
+    color: #fff;
+
+    .container {
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .block__contact {
+            max-width: 320px;
+            color: #fff;
+        }
+
+        .block__social {
+            max-width: 170px;
+            text-align: center;
+
+            img {
+                margin: 5px;
+                cursor: pointer;
+            }
+        }
+
+        .created {
+            text-align: center;
+            max-width: 140px;
+
+            .btn {
+                width: 100%;
+                background-color: black;
+                padding: 15px 13px;
+                text-align: center;
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    color: #f7f4f1;
+                    
+                }
+
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                    
+                }
+            }
+        }
+
+    }
+
+}
