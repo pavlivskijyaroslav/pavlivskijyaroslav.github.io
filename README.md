@@ -1,4 +1,4 @@
 # pavlivskijyaroslav.github.io
 [Barbershop](https://pavlivskijyaroslav.github.io/Barbershop/)  
 
-[Texcentr](pavlivskijyaroslav.github.io/Texcentr/index.html)
+[Texcentr](https://pavlivskijyaroslav.github.io/Texcentr/)
